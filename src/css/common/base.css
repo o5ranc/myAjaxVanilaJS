@@ -1,42 +1,10 @@
-/* .gowun-batang-regular {
-  font-family: "Gowun Batang", serif;
-  font-weight: 400;
-  font-style: normal;
-} */
-
-* {
-  font-family: "Noto Sans KR", sans-serif !important;
-  font-optical-sizing: auto;
-  font-weight: 400 !important;
-  font-style: normal;
-}
-
-.to-block {
-  display: block;
-}
-
-.btn-nobtn {
-  background-color: transparent;
-  border: 0px;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.btn-nobtn.c-green {
-  color: var(--my-dark-green);
-}
-
-.visible {
-  display: block;
-}
-
 /* 공통 변수 선언 */
 :root {
   /* 색상 변수 */
   --my-primary-green: #016F70;
   --my-primary-right-green: #82B540;
   --my-primary-yellow: #FFFFD3;
-  --my-dark-yellow: ##FFCC02;
+  --my-dark-yellow: #FFCC02;
   --my-dark-green: #007475;
   --my-dark-gray: #69727D;
   --my-dark-deep-gray: #212121;
@@ -53,6 +21,48 @@
   --my-alert-red: #F5493D;
   /* 버튼용 추가 컬러 변수 */
   --btn-white-color: #ffffff;
-  --btn-green-color: var(--my-dark-green)
-    /* 폰트 변수 */
+  --btn-green-color: var(--my-dark-green);
+  /* 폰트 변수 */
+  --fc-gray-acc1: var(--my-dark-deep-gray);
+  --fc-gray-acc2: #7e7e7e;
+  --fc-gray-acc3: #dcdcdc;
+  /* 라인용 변수 */
+  --line-right-gray: var(--my-middle-gray);
 }
+* {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+.to-block {
+  display: block;
+}
+.btn-nobtn {
+  background-color: transparent;
+  border: 0px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn-nobtn.c-green {
+  color: var(--my-dark-green);
+}
+.visible {
+  display: block;
+}
+.seperator {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid var(--line-right-gray);
+  margin: 20px 0px;
+}
+.txt-gray {
+  color: var(--fc-gray-acc1);
+}
+.txt-gray-mp {
+  color: var(--fc-gray-acc2);
+}
+.txt-gray-mpp {
+  color: var(--fc-gray-acc3);
+}
+
