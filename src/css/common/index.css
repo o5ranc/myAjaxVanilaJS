@@ -1,0 +1,139 @@
+header {
+  background-image: linear-gradient(to right, var(--my-dark-green), #4aabeb);
+  color: #ffffff;
+  height: auto 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+}
+
+nav {
+  width: 200px;
+  height: 100vh;
+  background-color: var(--my-middle-gray);
+  color: var(--my-dark-deep-gray);
+  padding-top: 10px;
+}
+
+nav>ul {
+  padding: 20px;
+}
+
+nav>ul>li>ul {
+  padding: 20px;
+  width: 100%
+}
+
+nav>ul>li {
+  align-items: center;
+  margin: 10px 0px;
+}
+
+nav>ul>li>.nav-titlemn,
+nav>ul>li>.btn-navmn {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+.nav>ul>li>.btn-navmn {
+  color: var(--btn-white-color);
+}
+
+nav>ul>li>.nav-titlemn.m-on:after {
+  content: '\F124';
+  font-family: bootstrap-icons !important;
+  position: absolute;
+  right: 0px;
+}
+
+nav>ul>li>.nav-titlemn:after {
+  content: '\F135';
+  font-family: bootstrap-icons !important;
+  position: absolute;
+  right: 0px;
+}
+
+nav>ul>li>.nav-subitem.sm-on {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: var(--my-primary-green);
+}
+
+nav>ul>li>.nav-subitem {
+  display: none;
+}
+
+main {
+  width: calc(100% - 200px);
+  padding: 30px;
+}
+
+.btn-fold-menu:after {
+  content: "\F479";
+  width: 40px;
+  height: 40px;
+  font-family: bootstrap-icons !important;
+  font-size: 27px;
+  position: relative;
+}
+
+.top-wrap {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-logo {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+}
+
+.top-right {
+  width: 210px;
+  position: relative;
+}
+
+.top-right>.imguser {
+  margin-left: 30px;
+}
+
+.top-right>.imguser::after {
+  content: "\F4D7";
+  width: 20px;
+  height: 20px;
+  font-family: bootstrap-icons !important;
+  position: absolute;
+  left: 0px;
+}
+
+.top-right>.imgset::after {
+  content: "\F3E5";
+  width: 20px;
+  height: 20px;
+  font-family: bootstrap-icons !important;
+  position: absolute;
+  right: 0px;
+}
+
+.top-right>.imguser::after,
+.top-right>.imgset::after {
+  cursor: pointer;
+}
+
+.tab-basic-wrap {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  color: #000;
+}

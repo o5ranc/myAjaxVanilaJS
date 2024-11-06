@@ -1,0 +1,58 @@
+/* .gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+* {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+.to-block {
+  display: block;
+}
+
+.btn-nobtn {
+  background-color: transparent;
+  border: 0px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-nobtn.c-green {
+  color: var(--my-dark-green);
+}
+
+.visible {
+  display: block;
+}
+
+/* 공통 변수 선언 */
+:root {
+  /* 색상 변수 */
+  --my-primary-green: #016F70;
+  --my-primary-right-green: #82B540;
+  --my-primary-yellow: #FFFFD3;
+  --my-dark-yellow: ##FFCC02;
+  --my-dark-green: #007475;
+  --my-dark-gray: #69727D;
+  --my-dark-deep-gray: #212121;
+  --my-pastel-right-green: #EBF9ED;
+  --my-pastel-green: #D4EDDA;
+  --my-underline-green: #D4F0BC;
+  --my-pastel-blue: #E5EEFE;
+  --my-primary-blue: #BBD2EB;
+  --my-middle-gray: #E9E9E9;
+  --my-right-gray: #F9F9F9;
+  --my-dark-middle-gray: #F6F7F7;
+  --my-dark-bg-gray: #EAEDEE;
+  --my-alert-right-red: #F9D7DA;
+  --my-alert-red: #F5493D;
+  /* 버튼용 추가 컬러 변수 */
+  --btn-white-color: #ffffff;
+  --btn-green-color: var(--my-dark-green)
+    /* 폰트 변수 */
+}

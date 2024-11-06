@@ -1,0 +1,1 @@
+console.log('폼 연습 페이지의 JS');

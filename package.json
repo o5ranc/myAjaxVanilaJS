@@ -2,7 +2,7 @@
   "name": "myajaxvanilajs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bb.js",
   "scripts": {
     "start": "lite-server"
   },

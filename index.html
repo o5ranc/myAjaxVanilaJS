@@ -5,9 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <link rel="stylesheet" href="/css/common/reset.css">
+  <!-- 스타일 적용 -->
+  <link rel="stylesheet" href="/src/css/common/reset.css">
+  <link rel="stylesheet" href="/src/css/common/base.css">
+  <link rel="stylesheet" href="/src/css/common/index.css">
+  <link rel="stylesheet" href="/src/css/common/components.css">
+
+  <!-- 폰트 적용 때문에 추가 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+
+  <!-- bootstrap(1.10.0)에서 지원하는 아이콘 사용하려고 추가 -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+  <!-- font Awesome(5.8.2) 사용하는 경우 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 </head>
 <body>
-  index 화면 입니다.
+  <header>
+    <div class="top-wrap">
+      <div class="top-logo">
+      </div>
+      <div class="top-right">
+        <span class="imguser">OOO님 로그인</span>
+        <span class="imgset"></span>
+      </div>
+    </div>
+  </header>
+  <section>
+    <nav>
+      <ul>
+        <li><a href="/home">홈</a></li>
+        <li><a href="/tabcomp">탭연습</a></li>
+        <li><a href="/tablecomp">테이블연습</a></li>
+        <li><a href="/cardcomp">카드연습</a></li>
+        <li><a href="/formcomp">입력창연습</a></li>
+      </ul>
+    </nav>
+    <!-- 링크에 따른 화면 이동 필요 -->
+    <main id="content"></main>
+  </section>
+  <script async src="./index.js"></script>
 </body>
 </html>
