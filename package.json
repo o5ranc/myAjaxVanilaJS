@@ -4,12 +4,12 @@
   "description": "",
   "main": "bb.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "live-server": "^1.2.2"
   }
 }
